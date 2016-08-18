@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+[assembly: Dependency(typeof(Borrame.Droid.Helper.Authenticator))]
 namespace Borrame.Droid.Helper
 {
     public class Authenticator: IAuthenticator
